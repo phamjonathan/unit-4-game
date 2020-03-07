@@ -9,19 +9,19 @@ $(document).ready(function() {
     function randomNumCrystals() {
         return {
             quartz: {
-                points: Math.floor(math.random() * 15) + 2,
-                imageUrl: "assets/images/quartz.jpg"
+                points: Math.floor(math.random() * 12) + 1,
+                imageUrl: "unit-4-game/assets/images/quartz.jpg"
             },
             amethyst: {
-                points: Math.floor(math.random() * 15) + 2,
+                points: Math.floor(math.random() * 12) + 1,
                 imageUrl: "assets/images/amethyst.jpg"
             },
             jade: {
-                points: Math.floor(math.random() * 15) + 2,
+                points: Math.floor(math.random() * 12) + 1,
                 imageUrl: "assets/images/jade.jpg"
             },
             diamond: {
-                points: Math.floor(math.random() * 15) + 2,
+                points: Math.floor(math.random() * 12) + 1,
                 imageUrl: "assets/images/diamond.jpg"
             }
         };
