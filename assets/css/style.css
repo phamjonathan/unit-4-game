@@ -17,6 +17,7 @@ body {
     margin-bottom: 15px;
     color: whitesmoke;
     background-color: darkcyan;
+    text-align: center;
 }
 
 #random-area {
@@ -26,6 +27,7 @@ body {
     font-size: 3vw;
     color: white;
     background-color: darkcyan;
+    text-align: center;
 }
 
 #score-area {
@@ -34,6 +36,7 @@ body {
     padding: 4px;
     color: ghostwhite;
     background-color: darkcyan;
+    text-align: center;
 }
 
 #score-title {
@@ -42,6 +45,8 @@ body {
     margin-bottom: 10px;
     color: white;
     background-color: darkcyan;
+    text-align: center;
+
 }
 
 .crystals-button {
@@ -53,8 +58,8 @@ body {
     height: 80px;
     cursor: pointer;
     background-color: white;
-    border: solid;
-    border-color: lightblue;
+    border: none;
+    border-color: white;
 }
 
 #score-number {
